@@ -1,4 +1,3 @@
-import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import { Outlet } from 'react-router-dom'; 
 
@@ -6,7 +5,9 @@ function App() {
 
   return (
     <>
-    <Navbar/>
+    <header className="bg-primary h-20 w-full">
+      <Navbar/>
+    </header>
     <Outlet/>
     </>
   )
