@@ -8,6 +8,7 @@ Esta é a minha solução para o Teste técnico da seleção de estágio em Dese
   - [O Desafio](#o-desafio)
   - [Capturas de tela](#capturas-de-tela)
   - [Links](#links)
+  - [Rodando a solução localmente](#rodando-a-solução-localmente)
 - [Meu processo](#meu-processo)
   - [Tecnologias e conceitos utilizados](#tecnologias-e-conceitos-utilizados)
   - [O que aprendi](#o-que-aprendi)
@@ -31,11 +32,20 @@ Desenvolver um site responsivo de receitas que o usuário consiga buscar receita
 -  [Captura de tela versão Mobile](https://github.com/igormath/arisetechnology-test/blob/main/src/assets/screenshots/mobile-screenshot.png)
 - [Captura de tela versão Desktop](https://github.com/igormath/arisetechnology-test/blob/main/src/assets/screenshots/desktop-screenshot.png)
 
-
-
 ### Links
 
 - [URL do deploy na Vercel](https://arisetechnology-test.vercel.app/)
+
+### Rodando a solução localmente
+
+No terminal:
+
+```
+$ git clone https://github.com/igormath/arisetechnology-test.git
+$ cd arisetechnology-test/
+$ npm install
+$ npm run dev
+```
 
 ## Meu processo
 
