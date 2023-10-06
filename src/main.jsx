@@ -12,8 +12,9 @@ import Home from './routes/Home.jsx';
 import NameSearch from './routes/NameSearch.jsx';
 import FirstLetterSearch from './routes/FirstLetterSearch.jsx';
 import IngredientsSearch from './routes/IngredientsSearch.jsx';
-import Bookmarks from './routes/Bookmarks.jsx';
 import ErrorPage from './routes/ErrorPage.jsx';
+import RecipesIngredients from './routes/RecipesIngredients.jsx';
+import Recipe from './routes/Recipe.jsx';
 
 const router = createBrowserRouter([
   {
@@ -38,8 +39,12 @@ const router = createBrowserRouter([
         element: <IngredientsSearch/>,
       },
       {
-        path: "bookmarks",
-        element: <Bookmarks/>,
+        path: "search/ingredients/:ingredientName",
+        element: <RecipesIngredients/>,
+      },
+      {
+        path: "recipe/:id",
+        element: <Recipe/>
       },
     ]
   },
