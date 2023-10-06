@@ -4,12 +4,10 @@ import { Outlet } from 'react-router-dom';
 function App() {
 
   return (
-    <>
-    <header className="bg-primary h-20 w-full">
+    <div className="grid grid-rows-[auto,1fr] min-h-screen">
       <Navbar/>
-    </header>
-    <Outlet/>
-    </>
+      <Outlet/>
+    </div>
   )
 }
 
