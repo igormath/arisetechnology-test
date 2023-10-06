@@ -10,6 +10,8 @@ export default {
       'primary': '#EFAC41',
       'secondary': '#E5F3BA',
       'button-color': '#b32900',
+      'card': '#ECFAC0',
+      'white-card': '#FAFAFA'
     }),
     textColor: {
       'primary': '#F0F0F0',
