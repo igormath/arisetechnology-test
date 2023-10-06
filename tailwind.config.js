@@ -18,6 +18,7 @@ export default {
       'title': '#330a04',
       'subtitle': '#6c1305',
       'button': '#E5F3BA',
+      'link': '#09266E',
     },
     extend: {},
   },
